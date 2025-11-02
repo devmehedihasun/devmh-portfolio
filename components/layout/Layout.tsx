@@ -13,6 +13,7 @@ import Footer3 from './footer/Footer3'
 import Header1 from "./header/Header1"
 import Header2 from './header/Header2'
 import Header3 from './header/Header3'
+import Preloader from '../sections/Preloader'
 
 interface LayoutProps {
 	headerStyle?: Number
@@ -20,6 +21,8 @@ interface LayoutProps {
 	children?: React.ReactNode
 	breadcrumbTitle?: string
 }
+
+
 
 
 export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, children }: LayoutProps) {
@@ -63,6 +66,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	}, [scroll])
 	return (
 		<>
+			<Preloader />
 			<div id="top" />
 			<AddClassBody />
 			<DataBg />

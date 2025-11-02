@@ -20,37 +20,37 @@ export default function Education2() {
 										<ul className="ps-3">
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2020-2024:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2023-running:</p>
 													<div>
-														<span className="text-primary-2">MIT</span>
+														<span className="text-primary-2">CUB</span>
 														<p className="text-dark">Bachelor’s Degree in Computer Science</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2018-2019:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2019-2023:</p>
 													<div>
-														<span className="text-primary-2">Harvard University</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<span className="text-primary-2">Greenland polytechnic Institute</span>
+														<p className="text-dark">Diploma in engineering computer science</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2015-2016:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">201-2019:</p>
 													<div>
-														<span className="text-primary-2">Stanford University</span>
-														<p className="text-dark">Certification in Full Stack Web Development</p>
+														<span className="text-primary-2">Bawany high school</span>
+														<p className="text-dark">S.S.C</p>
 													</div>
 												</div>
 											</li>
 											<li className="position-relative z-1 mb-3">
 												<div className="d-flex gap-2">
-													<p className="text-300 text-nowrap fw-regular mb-0">2013-2015:</p>
+													<p className="text-300 text-nowrap fw-regular mb-0">2008-2016:</p>
 													<div>
-														<span className="text-primary-2">University of Washington</span>
-														<p className="text-dark">Certification in React and Redux, Node.js Developer Course</p>
+														<span className="text-primary-2">Tarabo Primary School</span>
+														<p className="text-dark">PSC,JSC</p>
 													</div>
 												</div>
 											</li>
@@ -73,28 +73,28 @@ export default function Education2() {
 									<ul className="ps-3">
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2023-2024:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2024-Present:</p>
 												<div>
-													<span className="text-primary-2">Advanced Data Analytics with Big Data Tools</span>
-													<p className="text-dark">Utilized big data tools for advanced analytics and insights.</p>
+													<span className="text-primary-2">Advanced WordPress & CMS Development</span>
+													<p className="text-dark">Built high-performing websites using WordPress, Webflow, Wix, and Squarespace, focusing on responsive design, custom themes/plugins, and optimized user experiences.</p>
 												</div>
 											</div>
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2021-2013:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2022-2023:</p>
 												<div>
-													<span className="text-primary-2">Cloud-Native Application Architectures</span>
-													<p className="text-dark">Studied best practices for designing cloud-native applications.</p>
+													<span className="text-primary-2">Custom Theme & Plugin Development</span>
+													<p className="text-dark">Developed scalable custom WordPress themes and plugins, integrating dynamic content with Elementor, Crocoblock, and ACF for client-specific requirements.</p>
 												</div>
 											</div>
 										</li>
 										<li className="position-relative z-1 mb-3">
 											<div className="d-flex gap-2">
-												<p className="text-300 text-nowrap fw-regular mb-0">2019-2020:</p>
+												<p className="text-300 text-nowrap fw-regular mb-0">2020-2021:</p>
 												<div>
-													<span className="text-primary-2">AI-Driven User Experience Personalization</span>
-													<p className="text-dark">Leveraged AI to personalize user experiences based on behavior.</p>
+													<span className="text-primary-2">Performance Optimization & SEO</span>
+													<p className="text-dark">Optimized websites for speed, SEO, and usability, improving load times and user engagement across multiple projects.</p>
 												</div>
 											</div>
 										</li>

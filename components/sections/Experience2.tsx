@@ -30,7 +30,7 @@ export default function Experience2() {
 										<div className="d-flex flex-column gap-2">
 											<Link href="#" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
-													<img src="assets/imgs/home-page-2/experience/google.svg" alt="zelio" />
+													<img src="assets/imgs/home-page-2/experience/Wordpress Logo Grow.gif" alt="zelio" width={50}/>
 													<div className="d-flex flex-column ms-2">
 														<h5 className="mb-1">Backbencher Studio</h5>
 														<span className="text-300">2024 - Present</span>
@@ -39,25 +39,25 @@ export default function Experience2() {
 											</Link>
 											<Link href="#" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
-													<img src="assets/imgs/home-page-2/experience/twitter.svg" alt="zelio" />
+													<img src="assets/imgs/home-page-2/experience/Wordpress Logo Grow.gif" alt="zelio" width={50}/>
 													<div className="d-flex flex-column ms-2">
-														<h5 className="mb-1">2024</h5>
-														<span className="text-300"></span>
+														<h5 className="mb-1">Softcrafty</h5>
+														<span className="text-300">2024</span>
 													</div>
 												</div>
 											</Link>
 											<Link href="#" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
-													<img src="assets/imgs/home-page-2/experience/amazon.svg" alt="zelio" />
+													<img src="assets/imgs/home-page-2/experience/Wordpress Logo Grow.gif" alt="zelio" width={50}/>
 													<div className="d-flex flex-column ms-2">
-														<h5 className="mb-1">Remot</h5>
+														<h5 className="mb-1">Remot Job</h5>
 														<span className="text-300">2023-2024</span>
 													</div>
 												</div>
 											</Link>
 											<Link href="#" className="technology border border-1 rounded-3 p-3">
 												<div className="d-flex align-items-center gap-2">
-													<img src="assets/imgs/home-page-2/experience/payPal.svg" alt="zelio" />
+													<img src="assets/imgs/home-page-2/experience/Wordpress Logo Grow.gif" alt="zelio" width={50}/>
 													<div className="d-flex flex-column ms-2">
 														<h5 className="mb-1">Softvence</h5>
 														<span className="text-300">2022 - 2023</span>
