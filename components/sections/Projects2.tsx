@@ -105,7 +105,7 @@ export default function Projects2() {
                               </ul>
                               <div className="d-flex flex-wrap align-items-center gap-3 mt-7">
                                 <Link
-                                  href={project.demoLink}
+                                  href={project.websitelink}
                                   className="text-300 border-bottom border-1 px-2 pb-2 link-hover"
                                 >
                                   <svg
