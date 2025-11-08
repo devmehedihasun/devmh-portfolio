@@ -13,14 +13,14 @@ export default function Contact2() {
 	const [status, setStatus] = useState('');
 	const [loading, setLoading] = useState(false);
 
-	const handleChange = (e) => {
+	const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 		setFormData({
 			...formData,
 			[e.target.name]: e.target.value
 		});
 	};
 
-	const handleSubmit = async (e) => {
+	const handleSubmit = async (e: React.MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
 		setLoading(true);
 		setStatus('');

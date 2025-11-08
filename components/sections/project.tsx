@@ -57,7 +57,7 @@ export const projects: ProjectType[] = [
   },
    {
     id: 5,
-    image: "assets/imgs/home-page-2/projects/evidenceandbeyond.png",
+    image: "assets/imgs/home-page-2/projects/scienceforcowildlife.png",
     title: "Non-profit website",
     description: "non-pofit safe animals organization website.",
     client: "clinta ",
