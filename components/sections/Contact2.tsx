@@ -2,16 +2,24 @@
 
 import { useState } from 'react';
 
+interface FormData {
+	name: string;
+	phone: string;
+	email: string;
+	subject: string;
+	message: string;
+}
+
 export default function Contact2() {
-	const [formData, setFormData] = useState({
+	const [formData, setFormData] = useState<FormData>({
 		name: '',
 		phone: '',
 		email: '',
 		subject: '',
 		message: ''
 	});
-	const [status, setStatus] = useState('');
-	const [loading, setLoading] = useState(false);
+	const [status, setStatus] = useState<string>('');
+	const [loading, setLoading] = useState<boolean>(false);
 
 	const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
 		setFormData({
@@ -38,7 +46,7 @@ export default function Contact2() {
 				phone: formData.phone,
 				subject: formData.subject,
 				message: formData.message,
-				to_name: 'Mehedi Hasan', // Your name
+				to_name: 'Mehedi Hasan',
 			};
 
 			// Send email using EmailJS REST API
@@ -86,7 +94,7 @@ export default function Contact2() {
 						<div className="col-lg-7 pb-5 pb-lg-0">
 							<div className="position-relative">
 								<div className="position-relative z-2">
-									<h3 className="text-primary-2 mb-3">Let's connect</h3>
+									<h3 className="text-primary-2 mb-3">Let&apos;s connect</h3>
 									<div>
 										<div className="row g-3">
 											<div className="col-md-6">
@@ -148,7 +156,7 @@ export default function Contact2() {
 													name="message"
 													placeholder="Message"
 													aria-label="With textarea"
-													rows="5"
+													rows={5}
 													value={formData.message}
 													onChange={handleChange}
 													required
@@ -168,7 +176,7 @@ export default function Contact2() {
 											{status === 'success' && (
 												<div className="col-12">
 													<div className="alert alert-success" role="alert">
-														✓ Message sent successfully! I'll get back to you soon.
+														✓ Message sent successfully! I&apos;ll get back to you soon.
 													</div>
 												</div>
 											)}
